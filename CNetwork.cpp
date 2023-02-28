@@ -1960,7 +1960,7 @@ void CNetwork::EnumerationProgram()
 			RouteFlow_K1 = new double[m_nRoute];
 			ANRouteFlow = new double[m_nRoute];
 			ANRouteFlow_K1 = new double[m_nRoute];
-			beita = 0;
+			beita = 1;
 			for (int route = 0; route < m_nRoute; route++)
 			{
 				RouteFlow[route] = 0; // 初始化所有route流量为0
@@ -2192,7 +2192,7 @@ void CNetwork::EnumerationProgram()
 							RouteFlow_K1 = new double[m_nRoute];
 							ANRouteFlow = new double[m_nRoute];
 							ANRouteFlow_K1 = new double[m_nRoute];
-							beita = 0;
+							beita = 1;
 							for (int route = 0; route < m_nRoute; route++)
 							{
 								RouteFlow[route] = 0; // 初始化所有route流量为0
@@ -2414,7 +2414,7 @@ void CNetwork::EnumerationProgram()
 							RouteFlow_K1 = new double[m_nRoute];
 							ANRouteFlow = new double[m_nRoute];
 							ANRouteFlow_K1 = new double[m_nRoute];
-							beita = 0;
+							beita = 1;
 							for (int route = 0; route < m_nRoute; route++)
 							{
 								RouteFlow[route] = 0; // 初始化所有route流量为0
@@ -2629,7 +2629,7 @@ void CNetwork::EnumerationProgram()
 			RouteFlow_K1 = new double[m_nRoute];
 			ANRouteFlow = new double[m_nRoute];
 			ANRouteFlow_K1 = new double[m_nRoute];
-			beita = 0;
+			beita = 1;
 			for (int route = 0; route < m_nRoute; route++)
 			{
 				RouteFlow[route] = 0; // 初始化所有route流量为0
